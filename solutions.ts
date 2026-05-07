@@ -1,5 +1,5 @@
 
-
+// problem 1
 const filterEvenNumbers = (arry: number[]) => {
     return arry.filter((item) => item % 2 === 0);
 }
@@ -9,6 +9,7 @@ const filterEvenNumbers = (arry: number[]) => {
 
 
 
+// problem 2
 const reverseString = (str: string) => {
     return str.split("").reverse().join("");
 }
@@ -16,6 +17,7 @@ const reverseString = (str: string) => {
 
 
 
+// problem 3
 type StringOrNumber = string | number;
 
 const checkType = (input: StringOrNumber) => {
@@ -29,6 +31,7 @@ const checkType = (input: StringOrNumber) => {
 
 
 
+// problem 4
 const getProperty = <obj>(object: obj, key: keyof obj) => {
     return (object[key]);
 }
@@ -40,6 +43,7 @@ const user = {
 
 
 
+// problem 5
 interface Book {
     title: String,
     author: string,
@@ -63,6 +67,7 @@ const myBook = {
 
 
 
+// problem 6
 class Person {
     name: string;
     age: number;
@@ -88,6 +93,7 @@ class Student extends Person {
 
 
 
+// problem 7
 const getIntersection = (arry1: number[], array2: number[]) => {
     return arry1.filter((item) => array2.includes(item));
 }
