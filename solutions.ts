@@ -36,9 +36,6 @@ const getProperty = <obj>(object: obj, key: keyof obj) => {
     return (object[key]);
 }
 
-const user = {
-    id: 1, name: "John Doe", age: 21
-}
 
 
 
@@ -56,13 +53,6 @@ const toggleReadStatus = (input: Book) => {
         isRead: true
     }
 };
-
-
-const myBook = {
-    title: "TypeScript Fuide",
-    author: "Jane Doe",
-    publishedYear: 2024,
-}
 
 
 
